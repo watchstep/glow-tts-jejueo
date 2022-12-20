@@ -1,0 +1,268 @@
+ > Training Environment:
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 12
+ | > Num. of Torch Threads: 6
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+
+ > Model has 84660721 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> /content/drive/MyDrive/glow-tts-dialect/model/hifigan/run-December-20-2022_03+12PM-0000000
+
+[1m > TRAINING (2022-12-20 15:12:21) [0m
+
+[1m   --> STEP: 0/79 -- GLOBAL_STEP: 0[0m
+     | > D_mse_gan_loss: 1.00145  (1.00145)
+     | > D_mse_gan_real_loss: 0.25383  (0.25383)
+     | > D_mse_gan_fake_loss: 0.00001  (0.00001)
+     | > loss_0: 1.00145  (1.00145)
+     | > grad_norm_0: 0.92848  (0.92848)
+     | > G_l1_spec_loss: 2.31499  (2.31499)
+     | > G_mse_fake_loss: 0.89084  (0.89084)
+     | > G_feat_match_loss: 0.00457  (0.00457)
+     | > G_gen_loss: 104.17453  (104.17453)
+     | > G_adv_loss: 1.38444  (1.38444)
+     | > loss_1: 105.55897  (105.55897)
+     | > grad_norm_1: 276.35141  (276.35141)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 10.52310  (10.52307)
+     | > loader_time: 87.37320  (87.37319)
+
+
+[1m   --> STEP: 10/79 -- GLOBAL_STEP: 10[0m
+     | > D_mse_gan_loss: 0.51725  (0.62237)
+     | > D_mse_gan_real_loss: 0.04276  (0.13071)
+     | > D_mse_gan_fake_loss: 0.09280  (0.03973)
+     | > loss_0: 0.51725  (0.62237)
+     | > grad_norm_0: 0.30491  (0.63658)
+     | > G_l1_spec_loss: 1.11271  (1.38313)
+     | > G_mse_fake_loss: 0.33200  (0.37143)
+     | > G_feat_match_loss: 0.00583  (0.00575)
+     | > G_gen_loss: 50.07203  (62.24100)
+     | > G_adv_loss: 0.96215  (0.99266)
+     | > loss_1: 51.03418  (63.23365)
+     | > grad_norm_1: 177.28285  (156.35861)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.09540  (1.09732)
+     | > loader_time: 0.00260  (22.49552)
+
+
+[1m   --> STEP: 20/79 -- GLOBAL_STEP: 20[0m
+     | > D_mse_gan_loss: 0.49686  (0.56385)
+     | > D_mse_gan_real_loss: 0.05557  (0.10157)
+     | > D_mse_gan_fake_loss: 0.07163  (0.04788)
+     | > loss_0: 0.49686  (0.56385)
+     | > grad_norm_0: 0.13613  (0.42659)
+     | > G_l1_spec_loss: 0.88546  (1.16954)
+     | > G_mse_fake_loss: 0.28379  (0.32967)
+     | > G_feat_match_loss: 0.00771  (0.00665)
+     | > G_gen_loss: 39.84590  (52.62927)
+     | > G_adv_loss: 1.11687  (1.04762)
+     | > loss_1: 40.96276  (53.67689)
+     | > grad_norm_1: 232.58136  (172.95621)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.08290  (1.09155)
+     | > loader_time: 67.73280  (75.00408)
+
+
+[1m   --> STEP: 30/79 -- GLOBAL_STEP: 30[0m
+     | > D_mse_gan_loss: 0.45906  (0.53525)
+     | > D_mse_gan_real_loss: 0.05798  (0.08824)
+     | > D_mse_gan_fake_loss: 0.05960  (0.05226)
+     | > loss_0: 0.45906  (0.53525)
+     | > grad_norm_0: 0.12568  (0.31959)
+     | > G_l1_spec_loss: 0.78335  (1.05139)
+     | > G_mse_fake_loss: 0.28272  (0.31318)
+     | > G_feat_match_loss: 0.01667  (0.00848)
+     | > G_gen_loss: 35.25071  (47.31271)
+     | > G_adv_loss: 2.08262  (1.22905)
+     | > loss_1: 37.33334  (48.54175)
+     | > grad_norm_1: 193.97025  (176.39381)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.06740  (1.08898)
+     | > loader_time: 0.00330  (81.86463)
+
+
+[1m   --> STEP: 40/79 -- GLOBAL_STEP: 40[0m
+     | > D_mse_gan_loss: 0.42183  (0.50791)
+     | > D_mse_gan_real_loss: 0.06339  (0.07831)
+     | > D_mse_gan_fake_loss: 0.02597  (0.05199)
+     | > loss_0: 0.42183  (0.50791)
+     | > grad_norm_0: 0.87797  (0.35115)
+     | > G_l1_spec_loss: 0.72253  (0.97640)
+     | > G_mse_fake_loss: 0.38932  (0.31822)
+     | > G_feat_match_loss: 0.03506  (0.01339)
+     | > G_gen_loss: 32.51392  (43.93820)
+     | > G_adv_loss: 4.17616  (1.76419)
+     | > loss_1: 36.69008  (45.70238)
+     | > grad_norm_1: 244.01849  (186.17763)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.07760  (1.08772)
+     | > loader_time: 48.56140  (68.46686)
+
+
+[1m   --> STEP: 50/79 -- GLOBAL_STEP: 50[0m
+     | > D_mse_gan_loss: 0.37828  (0.48450)
+     | > D_mse_gan_real_loss: 0.04524  (0.07290)
+     | > D_mse_gan_fake_loss: 0.01787  (0.04681)
+     | > loss_0: 0.37828  (0.48450)
+     | > grad_norm_0: 0.57842  (0.52462)
+     | > G_l1_spec_loss: 0.68037  (0.92154)
+     | > G_mse_fake_loss: 0.41630  (0.33334)
+     | > G_feat_match_loss: 0.04582  (0.01925)
+     | > G_gen_loss: 30.61680  (41.46927)
+     | > G_adv_loss: 5.36496  (2.41227)
+     | > loss_1: 35.98176  (43.88155)
+     | > grad_norm_1: 270.21201  (193.18910)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.06700  (1.08564)
+     | > loader_time: 0.00260  (62.87875)
+
+
+[1m   --> STEP: 60/79 -- GLOBAL_STEP: 60[0m
+     | > D_mse_gan_loss: 0.37042  (0.46253)
+     | > D_mse_gan_real_loss: 0.04186  (0.06614)
+     | > D_mse_gan_fake_loss: 0.00750  (0.04147)
+     | > loss_0: 0.37042  (0.46253)
+     | > grad_norm_0: 1.73596  (0.65643)
+     | > G_l1_spec_loss: 0.64401  (0.87831)
+     | > G_mse_fake_loss: 0.52068  (0.35846)
+     | > G_feat_match_loss: 0.04861  (0.02555)
+     | > G_gen_loss: 28.98040  (39.52378)
+     | > G_adv_loss: 5.77095  (3.11756)
+     | > loss_1: 34.75135  (42.64135)
+     | > grad_norm_1: 238.02986  (197.69066)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.12330  (1.08507)
+     | > loader_time: 45.37100  (60.58748)
+
+
+[1m   --> STEP: 70/79 -- GLOBAL_STEP: 70[0m
+     | > D_mse_gan_loss: 0.30845  (0.44406)
+     | > D_mse_gan_real_loss: 0.00995  (0.05930)
+     | > D_mse_gan_fake_loss: 0.02178  (0.03798)
+     | > loss_0: 0.30845  (0.44406)
+     | > grad_norm_0: 0.66413  (0.71017)
+     | > G_l1_spec_loss: 0.62879  (0.84482)
+     | > G_mse_fake_loss: 0.51004  (0.37478)
+     | > G_feat_match_loss: 0.06636  (0.03044)
+     | > G_gen_loss: 28.29545  (38.01698)
+     | > G_adv_loss: 7.67653  (3.66242)
+     | > loss_1: 35.97197  (41.67941)
+     | > grad_norm_1: 190.10951  (198.18945)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.06880  (1.08444)
+     | > loader_time: 0.00340  (69.95301)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.18463 [0m(+0.00000)
+     | > avg_D_mse_gan_loss: 0.41097 [0m(+0.00000)
+     | > avg_D_mse_gan_real_loss: 0.04763 [0m(+0.00000)
+     | > avg_D_mse_gan_fake_loss: 0.02061 [0m(+0.00000)
+     | > avg_loss_0: 0.41097 [0m(+0.00000)
+     | > avg_G_l1_spec_loss: 0.60704 [0m(+0.00000)
+     | > avg_G_mse_fake_loss: 0.40865 [0m(+0.00000)
+     | > avg_G_feat_match_loss: 0.08111 [0m(+0.00000)
+     | > avg_G_gen_loss: 27.31690 [0m(+0.00000)
+     | > avg_G_adv_loss: 9.16892 [0m(+0.00000)
+     | > avg_loss_1: 36.48582 [0m(+0.00000)
+
+ > BEST MODEL : /content/drive/MyDrive/glow-tts-dialect/model/hifigan/run-December-20-2022_03+12PM-0000000/best_model_79.pth
+
+[4m[1m > EPOCH: 1/1000[0m
+ --> /content/drive/MyDrive/glow-tts-dialect/model/hifigan/run-December-20-2022_03+12PM-0000000
+
+[1m > TRAINING (2022-12-20 16:40:59) [0m
+
+[1m   --> STEP: 1/79 -- GLOBAL_STEP: 80[0m
+     | > D_mse_gan_loss: 0.31018  (0.31018)
+     | > D_mse_gan_real_loss: 0.00940  (0.00940)
+     | > D_mse_gan_fake_loss: 0.01078  (0.01078)
+     | > loss_0: 0.31018  (0.31018)
+     | > grad_norm_0: 0.93628  (0.93628)
+     | > G_l1_spec_loss: 0.61950  (0.61950)
+     | > G_mse_fake_loss: 0.56959  (0.56959)
+     | > G_feat_match_loss: 0.06728  (0.06728)
+     | > G_gen_loss: 27.87770  (27.87770)
+     | > G_adv_loss: 7.83530  (7.83530)
+     | > loss_1: 35.71300  (35.71300)
+     | > grad_norm_1: 160.55759  (160.55759)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.06040  (1.06036)
+     | > loader_time: 0.00260  (0.00262)
+
+
+[1m   --> STEP: 11/79 -- GLOBAL_STEP: 90[0m
+     | > D_mse_gan_loss: 0.28946  (0.30488)
+     | > D_mse_gan_real_loss: 0.01214  (0.01286)
+     | > D_mse_gan_fake_loss: 0.01320  (0.01579)
+     | > loss_0: 0.28946  (0.30488)
+     | > grad_norm_0: 0.48026  (0.74466)
+     | > G_l1_spec_loss: 0.61585  (0.61061)
+     | > G_mse_fake_loss: 0.58843  (0.54488)
+     | > G_feat_match_loss: 0.07509  (0.06954)
+     | > G_gen_loss: 27.71342  (27.47762)
+     | > G_adv_loss: 8.69815  (8.05511)
+     | > loss_1: 36.41158  (35.53272)
+     | > grad_norm_1: 185.08081  (193.48633)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.05950  (1.08598)
+     | > loader_time: 0.00410  (124.81136)
+
+
+[1m   --> STEP: 21/79 -- GLOBAL_STEP: 100[0m
+     | > D_mse_gan_loss: 0.33867  (0.31760)
+     | > D_mse_gan_real_loss: 0.01319  (0.01288)
+     | > D_mse_gan_fake_loss: 0.00618  (0.01487)
+     | > loss_0: 0.33867  (0.31760)
+     | > grad_norm_0: 1.03286  (0.95892)
+     | > G_l1_spec_loss: 0.60524  (0.60522)
+     | > G_mse_fake_loss: 0.49500  (0.52608)
+     | > G_feat_match_loss: 0.05919  (0.06590)
+     | > G_gen_loss: 27.23598  (27.23487)
+     | > G_adv_loss: 6.88796  (7.64304)
+     | > loss_1: 34.12394  (34.87792)
+     | > grad_norm_1: 176.81398  (189.89116)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.06350  (1.08355)
+     | > loader_time: 0.07530  (80.19848)
+
+
+[1m   --> STEP: 31/79 -- GLOBAL_STEP: 110[0m
+     | > D_mse_gan_loss: 0.38570  (0.34162)
+     | > D_mse_gan_real_loss: 0.02147  (0.01294)
+     | > D_mse_gan_fake_loss: 0.01033  (0.01511)
+     | > loss_0: 0.38570  (0.34162)
+     | > grad_norm_0: 1.89361  (1.16507)
+     | > G_l1_spec_loss: 0.60370  (0.60945)
+     | > G_mse_fake_loss: 0.50892  (0.50566)
+     | > G_feat_match_loss: 0.05569  (0.06134)
+     | > G_gen_loss: 27.16659  (27.42514)
+     | > G_adv_loss: 6.52380  (7.13064)
+     | > loss_1: 33.69039  (34.55579)
+     | > grad_norm_1: 148.19301  (186.29027)
+     | > current_lr_0: 0.00010 
+     | > current_lr_1: 0.00010 
+     | > step_time: 1.07940  (1.08215)
+     | > loader_time: 0.00270  (82.09837)
+
+ ! Run is kept in /content/drive/MyDrive/glow-tts-dialect/model/hifigan/run-December-20-2022_03+12PM-0000000

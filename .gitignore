@@ -2,3 +2,8 @@ nhoup.out
 rclone-*
 *.zip
 *.wav
+*.pyc
+*.pth
+*.out
+onedrive
+__pycache__

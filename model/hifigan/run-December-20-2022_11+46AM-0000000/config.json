@@ -58,7 +58,7 @@
         "frame_shift_ms": null,
         "frame_length_ms": null,
         "stft_pad_mode": "reflect",
-        "sample_rate": 22050,
+        "sample_rate": 44100,
         "resample": false,
         "preemphasis": 0.0,
         "ref_level_db": 20,
