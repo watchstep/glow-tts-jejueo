@@ -1,0 +1,44 @@
+ > Training Environment:
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 2
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+
+ > Model has 28600849 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> /content/drive/MyDrive/glow-tts-dialect/model/glow-tts/run-December-20-2022_10+04AM-309e698
+
+[1m > TRAINING (2022-12-20 10:05:33) [0m
+
+[1m   --> STEP: 0/141 -- GLOBAL_STEP: 0[0m
+     | > current_lr: 0.00000 
+     | > step_time: 9.26530  (9.26531)
+     | > loader_time: 21.08750  (21.08751)
+
+
+[1m   --> STEP: 25/141 -- GLOBAL_STEP: 25[0m
+     | > loss: 5.19835  (5.10838)
+     | > log_mle: 0.89223  (0.88133)
+     | > loss_dur: 4.30612  (4.22706)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 13.03667  (12.01591)
+     | > current_lr: 0.00000 
+     | > step_time: 1.55720  (0.73563)
+     | > loader_time: 4.50440  (41.89728)
+
+
+[1m   --> STEP: 50/141 -- GLOBAL_STEP: 50[0m
+     | > loss: 5.18029  (5.21343)
+     | > log_mle: 0.89539  (0.88946)
+     | > loss_dur: 4.28490  (4.32396)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 12.92758  (12.67649)
+     | > current_lr: 0.00000 
+     | > step_time: 1.32970  (0.85583)
+     | > loader_time: 0.00640  (22.75682)
+

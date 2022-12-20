@@ -2,34 +2,34 @@
 # https://github.com/Deepest-Project/MelNet/blob/master/text/korean.py
 
 import re
-from ko_normalize import normalize
+from korean.ko_normalize import normalize
 from jamo import hangul_to_jamo, h2j, j2h, hcj_to_jamo, is_hcj
 from jamo.jamo import _jamo_char_to_hcj
 
 PAD = '_'
 EOS = '~'
-PUNC = '!\'(),-.:;?'
-SPACE = ' '
+PUNC = '!\'(),-.:;? '
 
 '''
 한국어 초성, 중성, 종성 구분해 유니코드로 변경
 제주 방언에는 아래아, 쌍아래아 사용됨
-ᆞ (아래아) 0x119
+ᆞ (아래아) 0x119E
 ᆢ (쌍아래아) 0x11A2
+ᅌ (옛이응) 0x114C
 '''
 
 LEADS = [chr(_) for _ in range(0x1100, 0x1113)]
 JAMO_LEADS = "".join(LEADS)
 
 VOWELS = [chr(_) for _ in range(0x1161, 0x1176)]
-VOWELS.extend([chr(_) for _ in [0x119, 0x11A2]])
+VOWELS.extend([chr(_) for _ in [0x119E, 0x11A2, 0x114C]])
 JAMO_VOWELS = "".join(VOWELS)
 
 TAILS = [chr(_) for _ in range(0x11A8, 0x11C3)]
 JAMO_TAILS = "".join(TAILS)
 
-VALID_CHARS = JAMO_LEADS + JAMO_VOWELS + JAMO_TAILS + PUNC + SPACE
-ALL_SYMBOLS = PAD + EOS + VALID_CHARS
+VALID_CHARS = JAMO_LEADS + JAMO_VOWELS + JAMO_TAILS
+ALL_SYMBOLS = PAD + PUNC + VALID_CHARS + EOS
 
 char_to_id = {c: i for i, c in enumerate(ALL_SYMBOLS)}
 id_to_char = {i: c for i, c in enumerate(ALL_SYMBOLS)}
@@ -103,5 +103,5 @@ def tokenize(text, as_id=False):
     else:
         return [token for token in tokens] + [EOS]
 
-def tokenizer_fn(iterator):
+def tokenize_fn(iterator):
     return (token for x in iterator for token in tokenize(x, as_id=False))
