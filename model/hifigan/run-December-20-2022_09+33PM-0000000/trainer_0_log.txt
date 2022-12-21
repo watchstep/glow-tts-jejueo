@@ -1,0 +1,9 @@
+ > Training Environment:
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 4
+ | > Num. of Torch Threads: 2
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
