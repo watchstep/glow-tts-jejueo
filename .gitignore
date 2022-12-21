@@ -6,5 +6,6 @@ rclone-*
 *.pth
 *.out
 
+audio/
 onedrive/
 __pycache__/

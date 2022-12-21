@@ -1,0 +1,170 @@
+ > Training Environment:
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 2
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+
+ > Model has 28601041 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> /content/drive/MyDrive/glow-tts-dialect/model/glow-tts/run-December-21-2022_08+28AM-0000000
+
+[1m > TRAINING (2022-12-21 08:29:53) [0m
+
+[1m   --> STEP: 0/282 -- GLOBAL_STEP: 0[0m
+     | > current_lr: 0.00000 
+     | > step_time: 11.13300  (11.13301)
+     | > loader_time: 25.90780  (25.90777)
+
+
+[1m   --> STEP: 25/282 -- GLOBAL_STEP: 25[0m
+     | > loss: 3.55620  (3.50499)
+     | > log_mle: 1.06034  (1.05763)
+     | > loss_dur: 2.49585  (2.44736)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 8.99419  (8.27279)
+     | > current_lr: 0.00000 
+     | > step_time: 0.54470  (0.54589)
+     | > loader_time: 0.00190  (3.94107)
+
+
+[1m   --> STEP: 50/282 -- GLOBAL_STEP: 50[0m
+     | > loss: 3.68108  (3.57618)
+     | > log_mle: 1.07550  (1.06728)
+     | > loss_dur: 2.60558  (2.50890)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.14717  (8.72613)
+     | > current_lr: 0.00000 
+     | > step_time: 0.32220  (0.50340)
+     | > loader_time: 0.00510  (34.55281)
+
+
+[1m   --> STEP: 75/282 -- GLOBAL_STEP: 75[0m
+     | > loss: 3.81732  (3.62877)
+     | > log_mle: 1.08480  (1.07245)
+     | > loss_dur: 2.73252  (2.55632)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.29131  (8.87921)
+     | > current_lr: 0.00000 
+     | > step_time: 0.46020  (0.49341)
+     | > loader_time: 0.00250  (25.83213)
+
+
+[1m   --> STEP: 100/282 -- GLOBAL_STEP: 100[0m
+     | > loss: 3.69990  (3.66222)
+     | > log_mle: 1.08024  (1.07577)
+     | > loss_dur: 2.61966  (2.58645)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.01874  (8.96056)
+     | > current_lr: 0.00000 
+     | > step_time: 0.47930  (0.49150)
+     | > loader_time: 22.20200  (21.84602)
+
+
+[1m   --> STEP: 125/282 -- GLOBAL_STEP: 125[0m
+     | > loss: 3.77403  (3.68425)
+     | > log_mle: 1.09008  (1.07874)
+     | > loss_dur: 2.68396  (2.60551)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.15974  (9.01084)
+     | > current_lr: 0.00000 
+     | > step_time: 0.76120  (0.51780)
+     | > loader_time: 0.00990  (30.08732)
+
+
+[1m   --> STEP: 150/282 -- GLOBAL_STEP: 150[0m
+     | > loss: 3.75133  (3.70258)
+     | > log_mle: 1.09781  (1.08153)
+     | > loss_dur: 2.65352  (2.62105)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.14775  (9.04550)
+     | > current_lr: 0.00000 
+     | > step_time: 0.39250  (0.53733)
+     | > loader_time: 0.00320  (26.55786)
+
+
+[1m   --> STEP: 175/282 -- GLOBAL_STEP: 175[0m
+     | > loss: 3.78189  (3.71422)
+     | > log_mle: 1.08851  (1.08358)
+     | > loss_dur: 2.69338  (2.63065)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.24564  (9.06926)
+     | > current_lr: 0.00000 
+     | > step_time: 0.71980  (0.56117)
+     | > loader_time: 0.00330  (24.10779)
+
+
+[1m   --> STEP: 200/282 -- GLOBAL_STEP: 200[0m
+     | > loss: 3.74911  (3.72289)
+     | > log_mle: 1.09703  (1.08579)
+     | > loss_dur: 2.65208  (2.63709)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.09173  (9.08630)
+     | > current_lr: 0.00000 
+     | > step_time: 1.40990  (0.60793)
+     | > loader_time: 29.21850  (22.43647)
+
+
+[1m   --> STEP: 225/282 -- GLOBAL_STEP: 225[0m
+     | > loss: 3.75077  (3.72697)
+     | > log_mle: 1.11282  (1.08764)
+     | > loss_dur: 2.63795  (2.63933)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.11528  (9.09680)
+     | > current_lr: 0.00000 
+     | > step_time: 0.97710  (0.65191)
+     | > loader_time: 0.00440  (21.13313)
+
+
+[1m   --> STEP: 250/282 -- GLOBAL_STEP: 250[0m
+     | > loss: 3.84372  (3.72866)
+     | > log_mle: 1.09907  (1.08939)
+     | > loss_dur: 2.74465  (2.63927)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 9.30837  (9.10004)
+     | > current_lr: 0.00000 
+     | > step_time: 1.14450  (0.71674)
+     | > loader_time: 0.00490  (20.17920)
+
+
+[1m   --> STEP: 275/282 -- GLOBAL_STEP: 275[0m
+     | > loss: 3.63220  (3.73002)
+     | > log_mle: 1.11382  (1.09134)
+     | > loss_dur: 2.51838  (2.63867)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 8.92089  (9.10186)
+     | > current_lr: 0.00000 
+     | > step_time: 1.71710  (0.78753)
+     | > loader_time: 0.01420  (19.65790)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 4.68038 [0m(+0.00000)
+     | > avg_loss: 3.65504 [0m(+0.00000)
+     | > avg_log_mle: 1.09104 [0m(+0.00000)
+     | > avg_loss_dur: 2.56400 [0m(+0.00000)
+
+ > BEST MODEL : /content/drive/MyDrive/glow-tts-dialect/model/glow-tts/run-December-21-2022_08+28AM-0000000/best_model_282.pth
+
+[4m[1m > EPOCH: 1/1000[0m
+ --> /content/drive/MyDrive/glow-tts-dialect/model/glow-tts/run-December-21-2022_08+28AM-0000000
+
+[1m > TRAINING (2022-12-21 10:12:30) [0m
+
+[1m   --> STEP: 18/282 -- GLOBAL_STEP: 300[0m
+     | > loss: 3.49490  (3.33671)
+     | > log_mle: 1.05708  (1.04309)
+     | > loss_dur: 2.43781  (2.29362)
+     | > amp_scaler: 16384.00000  (16384.00000)
+     | > grad_norm: 8.80610  (8.50241)
+     | > current_lr: 0.00000 
+     | > step_time: 0.40170  (0.45486)
+     | > loader_time: 2.70410  (4.08307)
+

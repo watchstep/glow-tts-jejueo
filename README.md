@@ -17,7 +17,6 @@ glow-tts-dialect
 ├─ model # for saving model .pth file
 │  ├─ glow-tts
 │  └─ hifigan
-├─ audio # for saving .wav file
 ├─ prepare-data.ipynb
 ├─ glow-tts.ipynb 
 ├─ inference.ipynb
