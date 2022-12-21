@@ -5,7 +5,8 @@
 Jejueo TTS (제주어 음성합성) using [🐸Coqui TTS](https://github.com/coqui-ai/TTS) Model - Glow-TTS & HiFi-GAN 
 - Train models with [Jejueo Single Speaker Speech](https://www.kaggle.com/datasets/bryanpark/jejueo-single-speaker-speech-dataset) Dataset for 1K Step
 
-**You can check the TTS result examples on [here](https://watchstep.me/glow-tts-jejueo-demo/)!**
+### You can check the TTS result examples on [here](https://watchstep.me/glow-tts-jejueo-demo/)!
+
 ## Project Structure
 ```
 glow-tts-dialect
